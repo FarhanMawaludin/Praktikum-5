@@ -12,7 +12,7 @@ public class PemilihanPercobaan211 {
         System.out.println("Nilai Tugas     :");
         float Tugas = input11.nextFloat();
 
-        float total = (uas*0.4F) + (uts*0.3F) + (kuis*0.1F) + (Tugas*0.12F);
+        float total = (uas*0.4F) + (uts*0.3F) + (kuis*0.1F) + (Tugas*0.20F);
         String message = total < 65 ? "remidi" : "tidak remidi";
         System.out.println(" nilai akhir     = " + total + " sehingga " + message);
     }
