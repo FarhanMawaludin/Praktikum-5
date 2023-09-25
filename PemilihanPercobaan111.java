@@ -8,10 +8,9 @@ public class PemilihanPercobaan111 {
         System.out.println("Masukan Angka");
         int angka = input11.nextInt();
 
-        if (angka % 2 == 0)
-        System.out.println("Angka"+angka+"bilangan genap");
-        else 
-        System.out.println("Angka"+angka+"bilangan ganjil");
+        String hasil = (angka % 2 == 0) ? "angka"+angka+"bilangan genap" : "angka"+angka+"bilangan ganjil";
+        System.out.println(hasil);
+        
 
 
 
