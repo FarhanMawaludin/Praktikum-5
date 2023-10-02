@@ -9,6 +9,7 @@ public class masuk {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("******LOGIN******");
         System.out.print("Masukkan username: ");
         String inputUsername = scanner.nextLine();
         System.out.print("Masukkan password: ");
